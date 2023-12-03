@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Darkminer v6</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Forms" />
+    <Reference Include="System.Drawing.Common" />
+    <Reference Include="System.Windows.Forms.Primitives" />
+  </ItemGroup>
+</Project>
